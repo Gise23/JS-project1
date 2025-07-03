@@ -52,7 +52,7 @@ function getComputerChoice() {
 
     if (randomNum <= 3) {
         return "rock"
-    } else if (randomNum <= 6) {
+    } else if (3 < randomNum <= 6) {
         return "paper"
     } else {
         return "scissors"
